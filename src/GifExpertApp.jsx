@@ -24,7 +24,7 @@ export const GifExpertApp = () => {
 
   const [categories, setCategories] = useState([]);
   
-  const clearAll = () => { setCategories([]); }
+  const clearAll = () => { setCategories([]); setRepeated(false); }
 
   return (
     <>
