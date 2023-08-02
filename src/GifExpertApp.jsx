@@ -12,14 +12,14 @@ export const GifExpertApp = () => {
     });
 
     if (exist) {
-      console.log('category already exist: ' + exist + ' === ' + newCategory);
+      //console.log('category already exist: ' + exist + ' === ' + newCategory);
       setRepeated(true);
       return;
     }
 
     setCategories([newCategory, ...categories]);
     setRepeated(false);
-    console.log('category is new: ' + exist + ' === ' + newCategory);
+    //console.log('category is new: ' + exist + ' === ' + newCategory);
   }
 
   const [categories, setCategories] = useState([]);
