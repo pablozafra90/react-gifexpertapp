@@ -91,3 +91,8 @@
     display: flex;
     gap: 10px;
   }
+
+  .error-msg {
+    font-weight: 400;
+    color: rgb(202, 37, 37);
+  }
