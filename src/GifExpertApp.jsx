@@ -36,8 +36,10 @@ export const GifExpertApp = () => {
 
           {/* Input */}
           <AddCategory onNewCategory={ onNewCategory }/>
+          
+          <button type="submit" form="form01" value="{SubmitEvent}" className="buttons">Buscar</button>
 
-          <button onClick={ clearAll } className="buttons f-left">Clear all</button>
+          <button onClick={ clearAll } className="buttons">Borrar</button>
 
         </div>
 

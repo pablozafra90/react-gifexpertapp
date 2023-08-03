@@ -35,7 +35,7 @@
   
   h3 {
     font-size: 3rem;
-    margin-bottom: 5px;
+    margin-bottom: 35px;
   }
 
   h4 {
@@ -89,6 +89,7 @@
 
   .tool-content {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
   }
 
@@ -96,3 +97,14 @@
     font-weight: 400;
     color: rgb(202, 37, 37);
   }
+
+
+  @media screen and (max-width: 640px) {
+    form {
+      flex: 100%;
+    }
+    .buttons {
+      flex: auto;
+    }
+  }
+  
