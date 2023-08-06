@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { AddCategory, GifGrid } from "./components";
-//import { useOnNewCategory } from "./hooks/useOnNewCategory";
 
 export const GifExpertApp = () => {
 
@@ -26,9 +25,6 @@ export const GifExpertApp = () => {
   }
   
   const clearAll = () => { setCategories([]); setRepeated(false); }
-    
-
-  //const { categories, repeated, clearAll } = useOnNewCategory( );
 
   return (
     <>
